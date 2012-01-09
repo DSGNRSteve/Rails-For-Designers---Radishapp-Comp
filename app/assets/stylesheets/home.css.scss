@@ -3,4 +3,50 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-h1 { color: red; }
+
+body {
+    border-top: 6px solid pink;
+    background: grey;
+    background: image_url("starring.png");
+    }
+    
+#pg-wrap {
+    width: 950px;
+    margin: 0 auto;
+    background: white;
+    height: auto;
+    padding: 0 15px 20px 15px;
+}
+
+header {
+    height: 50px;
+    width: 100%;
+}
+nav {
+    float: right;
+    padding: 10px 5px 10px 5px;
+}
+a, a:hover, a:visited {
+    color: grey;
+    padding: 0 2px 0 5px;
+}
+
+#content {
+}
+    
+h1 { 
+    color: red;
+    font-size: 30px;
+}
+
+#box {
+    @include border-radius (10px);
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+#sidebar {
+    float: right;
+    }

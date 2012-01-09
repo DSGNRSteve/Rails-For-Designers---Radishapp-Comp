@@ -31,6 +31,8 @@ GEM
       multi_json (~> 1.0)
     ansi (1.4.1)
     arel (2.2.1)
+    bourbon (1.2.0)
+      sass (>= 3.1)
     builder (3.0.0)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
@@ -42,6 +44,7 @@ GEM
     erubis (2.7.0)
     execjs (1.2.13)
       multi_json (~> 1.0)
+    flutie (1.3.3)
     hike (1.2.1)
     i18n (0.6.0)
     jquery-rails (1.0.19)
@@ -109,7 +112,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bourbon
   coffee-rails (~> 3.1.1)
+  flutie
   jquery-rails
   rails (= 3.1.3)
   sass-rails (~> 3.1.5)
