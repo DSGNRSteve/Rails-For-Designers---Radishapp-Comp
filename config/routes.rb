@@ -4,6 +4,8 @@ RailsForDesigners::Application.routes.draw do
   get "home/index"
   
   match 'about' => 'about#index'
+  match 'contact' => 'contact#index'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

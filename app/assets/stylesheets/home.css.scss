@@ -5,16 +5,14 @@
 
 
 body {
-    border-top: 6px solid pink;
+    border-top: 6px solid rgba(0,0,0,.5);
     background: grey;
-    background: image_url("starring.png");
+    background: image_url("fabric_plaid.png");
     }
     
 #pg-wrap {
     width: 950px;
     margin: 0 auto;
-    background: white;
-    height: auto;
     padding: 0 15px 20px 15px;
 }
 
@@ -32,6 +30,8 @@ a, a:hover, a:visited {
 }
 
 #content {
+    float: left;
+    width: 75%;
 }
     
 h1 { 
@@ -49,4 +49,5 @@ h1 {
 
 #sidebar {
     float: right;
+    width: 25%;
     }
