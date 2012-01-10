@@ -1,0 +1,42 @@
+<section id="container">
+    <section id="browser-preview">
+        <div class="wrapper">
+            <%= image_tag("browser.png", :class => 'browser-image') %>
+        </div> <!-- /wrapper -->
+    </section>
+
+    <div id="marketing-wrapper">
+        <div id="content-wrapper">
+            <section id="features">
+                    <h2>Dig Deep Into Redis</h2>
+                    
+                    <div class="column left">
+                        <div class="thumb" id="metrics"></div>
+                        <h4>SMART METRICS</h4>
+                        <p>Tracking project specific metrics is made easy with Radish. Sparklines quickly show high density data in a simplified and useful manner.</p>
+                    </div>
+                
+                    <div class="column">
+                        <div class="thumb" id="interface"></div>
+                        <h4>INTELLIGENT INTERFACE</h4>
+                        <p>Radish is equipped with a minimal user interface that stands out of the way, empowering you to focus on data and project metrics.</p>
+                    </div>
+                
+                    <div class="column right">
+                        <div class="thumb" id="monitor"></div>
+                        <h4>REAL-TIME MONITORING</h4>
+                        <p>Monitor critical incoming data for bottlenecks and spikes. Radish enables you to visualize your redis instances so you can take action when necessary.</p>
+                    </div>
+            </section>
+    <hr>
+        <section id="sign-up">
+            <div id="free-trial">
+                <h3>SIGN UP FOR A FREE TRIAL</h3>
+                
+                <%= render 'shared/sign-up-form'%>
+            
+            </div>
+        </section>    
+        </div>
+    </div>
+</section>
