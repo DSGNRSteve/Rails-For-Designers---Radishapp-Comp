@@ -6,6 +6,7 @@ RadishApp::Application.routes.draw do
   get "blog/index"
 
   match 'signin' => 'signin#index'
+  match 'blog' => 'blog#index'
 
 
   # The priority is based upon order of creation:
